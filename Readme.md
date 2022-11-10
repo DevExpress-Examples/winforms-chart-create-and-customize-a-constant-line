@@ -9,7 +9,7 @@ This example demonstrates how create and customize a [constant line](https://doc
 
 ![Constant Line](image/chart.png)
 
-Since constant lines belong to a diagram's [axis](https://docs.devexpress.com/WindowsForms/5779/controls-and-libraries/chart-control/diagram/axes), it is required to cast the [diagram](https://docs.devexpress.com/WindowsForms/5778/controls-and-libraries/chart-control/diagram) object to the appropriate diagram's type. After that, you can access axes and manage their constant lines collection.
+Since constant lines belong to a diagram's [axis](https://docs.devexpress.com/WindowsForms/5779/controls-and-libraries/chart-control/diagram/axes), you need to cast the [diagram](https://docs.devexpress.com/WindowsForms/5778/controls-and-libraries/chart-control/diagram) object to the appropriate diagram's type. After that, you can access axes and manage their constant lines collection.
 
 ## Files to Review
 
