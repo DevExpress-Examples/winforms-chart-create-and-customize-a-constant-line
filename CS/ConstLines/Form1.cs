@@ -1,15 +1,14 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using DevExpress.Drawing;
 using DevExpress.XtraCharts;
-// ...
 
 namespace ConstLines {
     public partial class Form1 : Form {
         public Form1() {
             InitializeComponent();
         }
-
         private void Form1_Load(object sender, EventArgs e) {
             // Create an empty chart.
             ChartControl chartControl1 = new ChartControl();
@@ -48,7 +47,7 @@ namespace ConstLines {
             constantLine1.Title.Text = "Constant Line Title";
             constantLine1.Title.TextColor = Color.Red;
             constantLine1.Title.EnableAntialiasing = DevExpress.Utils.DefaultBoolean.False;
-            constantLine1.Title.Font = new Font(this.Font.FontFamily.Name, 14, FontStyle.Bold);
+            constantLine1.Title.DXFont = new DXFont("Tahoma", 14, DXFontStyle.Bold);
             constantLine1.Title.ShowBelowLine = true;
             constantLine1.Title.Alignment = ConstantLineTitleAlignment.Far;
 
@@ -61,6 +60,5 @@ namespace ConstLines {
             chartControl1.Dock = DockStyle.Fill;
             this.Controls.Add(chartControl1);
         }
-
     }
 }
