@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 
-# Chart for WinForms - How to Create and Customize Constant Line
+# Chart for WinForms - How to Create and Customize a Constant Line
 
 This example demonstrates how create and customize a [constant line](https://docs.devexpress.com/WindowsForms/5783/controls-and-libraries/chart-control/axes/constant-lines) at runtime.
 
